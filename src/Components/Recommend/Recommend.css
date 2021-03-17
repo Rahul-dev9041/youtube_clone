@@ -1,0 +1,39 @@
+/* .bodyw {
+	float: right;
+} */
+.cards{
+	display: flex;
+	float: right;
+	margin: 30px 10px 22px 10px;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	padding-top: 50px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	/* color: honeydew; */
+	position: relative;
+}
+.words {
+	display: inline-flex;
+	flex-wrap: wrap;
+
+}
+
+.card{
+	border-style: groove;
+	background-color: rgb(236, 231, 231);
+	flex-wrap: wrap;
+	flex-direction: row;
+	overflow-y: hidden;
+
+	
+}
+.cardinfo{
+	text-align: center;
+	color: black;
+}
+img{
+	width: 220px;
+	height: 100px;
+}

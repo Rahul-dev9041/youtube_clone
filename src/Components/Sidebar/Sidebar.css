@@ -1,0 +1,23 @@
+.sidebar {
+    /* flex: 0.2; */
+    float: left;
+    background-color: #FFFF;
+    width: 20%;
+    height: 1000px;
+    position: fixed;
+    padding-top: 70px;
+    max-height: calc(100vh - 0rem);
+    overflow: auto;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar:hover{
+   color: rgb(19, 17, 17);
+}
